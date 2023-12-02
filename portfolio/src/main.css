@@ -1,0 +1,143 @@
+* {
+    font-family: 'Vollkorn', serif;
+}
+
+
+/* Style the hero section */
+.hero {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    /* color: white; */
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.hero-content {
+    animation: fadeInUp 1s;
+}
+.hero-content a{
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content a {
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero-content a:hover {
+    background-color: orangered;
+}
+
+/* Keyframes for the fadeInUp animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Style the features section */
+/* .features {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+} */
+
+.feature {
+    text-align: center;
+
+    animation: fadeIn 1s;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 3px lightgray;
+    border: 89px;
+    padding: 2rem;
+    transition: all 0.3s ease-in-out;
+
+}
+.feature:hover{
+    transform: scale(0.9);
+    
+}
+i {
+    font-size: 2.5rem;
+    color: #ff5733;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+p {
+    font-size: 1rem;
+}
+
+/* Keyframes for the fadeIn animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Project section  */
+.project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* input box style  */
+input {
+    width: 98%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+    transition: border-color 0.3s ease-in-out; /* Add a smooth transition on border color */
+  }
+  
+  /* Style for the input box on focus */
+  input:focus {
+    outline: none;
+    border-color: darkgray;
+    box-shadow: 0 0 5px rgba(66, 66, 66, 0.5);
+  }
+ 
+  .each_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
