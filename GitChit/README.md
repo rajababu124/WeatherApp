@@ -14,4 +14,6 @@
             <li>git chechout -b < new branch name > to create new branch</li>
             <li>git branch -d < branch name > - to delete branch</li>
     </ul>
+
+    
    </div>
