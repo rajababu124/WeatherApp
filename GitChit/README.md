@@ -24,4 +24,6 @@
     <ul>
         <li>Create a Pull Request</li>
     </ul>
+       <P>PULL COMMAND</P>
+    <P>To Download and fetch all the changes from remote to local</P>
    </div>
