@@ -15,5 +15,14 @@
             <li>git branch -d < branch name > - to delete branch</li>
     </ul>
 
-    
+    <h3>Branch : Merge commands</h3>
+    <p>Way 1</p>
+    <ul>
+    <li>git diff branch-name - to compare</li>
+    <li>git merge branch-name - to merge two  branches</li>
+    </ul>
+    <p>Way 2</p>
+    <ul>
+        <li>Create a Pull Request</li>
+    </ul>
    </div>
