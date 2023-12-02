@@ -15,24 +15,24 @@
             <li>git branch -d < branch name > - to delete branch</li>
     </ul>
     <h3>Branch : Merge commands</h3>
-    <p>Way 1</p>
+    <h5>Way 1</h5>
     <ul>
     <li>git diff branch-name - to compare</li>
     <li>git merge branch-name - to merge two  branches</li>
     </ul>
-    <p>Way 2</p>
+    <h5>Way 2</h5>
     <ul>
         <li>Create a Pull Request</li>
     </ul>
-       <P>PULL COMMAND</P>
-    <P>To Download and fetch all the changes from remote to local</P>
+       <h5>PULL COMMAND</h5>
+    <h5>To Download and fetch all the changes from remote to local</h5>
      <h3>Undoing Changes</h3>
     <ul>
         <li>git log - to see all the commits</li>
-        <p>Staged changes (which is added but not commited )</p>
+        <h5>Staged changes (which is added but not commited )</h5>
         <li>git reset filename - to undo a particular file</li>
         <li>git reset - to undo multiple files</li>
-        <p>Committed Changes </p>
+        <h5>Committed Changes </h5>
         <li>git reset HEAD~1 - for one commit</li>
         <li>git reset hashcode (asdfjasdfuiafjasdffjsfasfasdfa) - for multiple commits</li>
         <li>git reset --hard hashcode (asdfjasdfuiafjasdffjsfasfasdfa) - to remove modifications from code as well</li>
